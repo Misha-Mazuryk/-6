@@ -1,0 +1,117 @@
+#table{
+    border:2px black dotted;
+  }
+
+  #table :nth-child(even){
+    text-align: center;
+    font-size: 20px;
+    border:2px black solid;
+  }
+
+    #table :nth-child(odd){
+      text-align: center;
+      font-size: 20px;
+      background-color:gray;
+      color:white;
+      padding: 5px;
+      border:2px black solid;
+    }
+
+    #table1{
+      border:2px black dotted;
+    }
+
+    #table1 :nth-child(even){
+      text-align: center;
+      font-size: 20px;
+border:2px black solid;
+    }
+
+      #table1 :nth-child(odd){
+        text-align: center;
+        font-size: 20px;
+        background-color:gray;
+        color:white;
+        padding: 5px;
+        border:2px black solid;
+      }
+      #table2{
+        border:2px black dotted;
+      }
+
+      #table2 :nth-child(even){
+        text-align: center;
+        font-size: 20px;
+  border:2px black solid;
+      }
+
+        #table2 :nth-child(odd){
+          text-align: center;
+          font-size: 20px;
+          background-color:gray;
+          color:white;
+          padding: 5px;
+          border:2px black solid;
+        }
+        #table3{
+          border:2px black dotted;
+        }
+
+        #table3 :nth-child(even){
+          text-align: center;
+          font-size: 20px;
+    border:2px black solid;
+        }
+
+          #table3 :nth-child(odd){
+            text-align: center;
+            font-size: 20px;
+            background-color:gray;
+            color:white;
+            padding: 5px;
+            border:2px black solid;
+          }
+          h1{
+            text-align: center;
+            font-size: 22px;
+          }
+          #backtomain{
+            font-style: italic;
+          }
+          #tmyfriens{
+            text-align:center;
+          }
+          #zagolovki{
+            text-align: center;
+            background-color: green;
+            color: azure;
+            font-weight:bold;
+          }
+          @media (min-width: 992px){
+            th{
+                font-size: 130%;
+              }
+    
+              td{
+                font-size: 120%;
+              }
+          }
+          
+          @media (min-width: 768px) and (max-width: 992px) {
+            th{
+                font-size: 120%;
+              }
+    
+              td{
+                font-size: 110%;
+              }
+          }
+          @media (max-width: 768px){
+            th{
+                font-size: 110%;
+              }
+    
+              td{
+                font-size: 100%;
+              }
+          }
