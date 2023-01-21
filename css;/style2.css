@@ -1,0 +1,146 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.bloks{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: wrap; 
+
+}
+
+
+.class1{ 
+    border: 1px solid black;
+    margin-bottom: 2%;
+    flex: 33%;
+
+}
+.class2{
+    border: 1px solid black;
+    margin-bottom: 2%;
+    flex: 33%;
+
+}
+.class3{
+    border: 1px solid black;
+    margin-bottom: 2%;
+    flex: 33%;
+
+}
+.class4{
+    border: 1px solid black;
+    margin-bottom: 2%;
+    flex: 0.5;
+}
+.class5{
+    border: 1px solid black;
+    margin-bottom: 2%;
+    flex: 0.5;
+
+}
+
+#links a{
+    display: block;
+    height:30px;
+    width:150px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    color:white;
+
+  }
+  #links :hover{
+  display: block;
+   height:30px;
+   width:150px;
+  background-color:magenta;
+  }
+  #links :active{
+  display: block;
+   height:30px;
+   width:150px;
+   background-color:yellow;
+    color: blue;
+  }
+  #baz_inf p{
+    background-color: white;
+    color:black;
+  }
+
+  #child p{
+    background-color: black;
+    color:white;
+  }
+   #school_years p{
+    background-color: blue;
+    color:yellow;
+  }
+  #outside_school p{
+    background-color: red;
+    color:yellow;
+  }
+  #university p{
+    background-color: purple;
+    color:white;
+  }
+  #backtomain{
+    font-style: italic;
+  }
+  #zmist{
+    text-align: center;
+  }
+  #links li{
+    font-size: 100%;
+  }
+  .zag h2 {
+   font-size:120%; 
+  }
+  .zag p {
+    font-size: 140%;
+  }
+  .zag a {
+    font-weight: bold;
+  }
+  #up {
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .bloks{
+      display: flex;
+      flex-wrap: wrap;
+    
+    }
+    
+    
+    .class1{ 
+        margin-bottom: 2%;
+        flex: 33%
+    }
+    .class2{
+        margin-bottom: 2%;
+        flex: 33%;
+    }
+    .class3{
+        margin-bottom: 2%;
+        flex: 33%;
+    }
+    .class4{
+        margin-bottom: 2%;
+        flex: 100%;
+    }
+    .class5{
+        margin-bottom: 2%;
+        flex: 100%;
+    }
+}
+
+@media (max-width: 768px){
+  .bloks{
+    display: flex;
+    flex-direction: column;
+
+}
+}
