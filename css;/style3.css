@@ -1,0 +1,66 @@
+#ull li:nth-child(3){
+    font-size: 20px;
+  }
+  #uul li:nth-child(odd){
+    background-color:gray;
+    color:white;
+  }
+
+  #ull1 li:nth-child(3){
+    font-size: 20px;
+  }
+  #uul1 li:nth-child(odd){
+    background-color:gray;
+    color:white;
+  }
+  #ull2 li:nth-child(3){
+    font-size: 20px;
+  }
+  #uul2 li:nth-child(odd){
+    background-color:gray;
+    color:white;
+  }
+
+  #three{
+    color: black;
+  }
+  #three:hover{
+    color:purple;
+  cursor: pointer;
+  }
+  #four{
+    background-color: yellow;
+  }
+  #fife{
+    color: black;
+  }
+  #fife:hover{
+    color:purple;
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+    font-size: 22px;
+  }
+  #backtomain{
+    font-style: italic;
+  }
+  #mylist{
+    text-align: center;
+  }
+  #mylist2{
+    text-align: center;
+  }
+  .er{
+    display: flex;
+  }
+  @media (max-width: 992px) {
+    .er{
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+    .ep{
+        flex:100%;
+    }
+    }
